@@ -1,0 +1,17 @@
+/* Cosmic Light Theme - SwayOSD CSS */
+window {
+    background: #eeeeee;
+    color: #333333;
+    border: none;
+    border-radius: 0px;
+}
+
+progressbar {
+    background: #dddddd;
+    color: #0a97a5;
+}
+
+trough {
+    background: #dddddd;
+    border-radius: 0px;
+}

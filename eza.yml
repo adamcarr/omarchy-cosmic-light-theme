@@ -1,0 +1,202 @@
+# Cosmic Theme for eza
+# Flat, modern color scheme inspired by System76's Cosmic Desktop
+
+# File types
+file_type:
+  directory:
+    foreground: "48b9c7"
+    style: "bold"
+
+  executable:
+    foreground: "66bb6a"
+    style: "bold"
+
+  regular:
+    foreground: "f2f2f2"
+
+  symlink:
+    foreground: "ab47bc"
+    style: "italic"
+
+  broken_symlink:
+    foreground: "f44336"
+    style: "strikethrough"
+
+  missing_symlink_target:
+    foreground: "f44336"
+    style: "dim"
+
+  fifo:
+    foreground: "faa41a"
+    background: "2e2e2e"
+
+  socket:
+    foreground: "ba68c8"
+    background: "2e2e2e"
+
+  char_device:
+    foreground: "26a69a"
+    background: "2e2e2e"
+
+  block_device:
+    foreground: "ffb74d"
+    background: "2e2e2e"
+
+  special:
+    foreground: "ff9800"
+    background: "2e2e2e"
+
+# Permissions
+permissions:
+  user_read:
+    foreground: "66bb6a"
+  user_write:
+    foreground: "faa41a"
+  user_execute_file:
+    foreground: "f44336"
+  user_execute_other:
+    foreground: "48b9c7"
+
+  group_read:
+    foreground: "81c784"
+  group_write:
+    foreground: "ffb74d"
+  group_execute:
+    foreground: "ef5350"
+
+  other_read:
+    foreground: "4db6ac"
+  other_write:
+    foreground: "ff9800"
+  other_execute:
+    foreground: "ff7043"
+
+  special_user_file:
+    foreground: "ab47bc"
+  special_other:
+    foreground: "ba68c8"
+
+  attribute:
+    foreground: "42a5f5"
+
+# File sizes
+size:
+  major:
+    foreground: "48b9c7"
+  minor:
+    foreground: "b8b8b8"
+
+  number_byte:
+    foreground: "66bb6a"
+  number_kilo:
+    foreground: "81c784"
+  number_mega:
+    foreground: "faa41a"
+  number_giga:
+    foreground: "ffb74d"
+  number_huge:
+    foreground: "f44336"
+
+  unit_byte:
+    foreground: "b8b8b8"
+  unit_kilo:
+    foreground: "b8b8b8"
+  unit_mega:
+    foreground: "b8b8b8"
+  unit_giga:
+    foreground: "b8b8b8"
+  unit_huge:
+    foreground: "b8b8b8"
+
+# Users and groups
+users:
+  user_you:
+    foreground: "48b9c7"
+    style: "bold"
+  user_root:
+    foreground: "f44336"
+    style: "bold"
+  user_other:
+    foreground: "b8b8b8"
+  group_yours:
+    foreground: "42a5f5"
+  group_other:
+    foreground: "b8b8b8"
+
+# Links
+links:
+  normal:
+    foreground: "ab47bc"
+  multi_link_file:
+    foreground: "ba68c8"
+
+# Data and time
+date:
+  day_old:
+    foreground: "66bb6a"
+  hour_old:
+    foreground: "81c784"
+  newer:
+    foreground: "48b9c7"
+    style: "bold"
+  older:
+    foreground: "b8b8b8"
+
+# Git
+git:
+  new:
+    foreground: "66bb6a"
+  modified:
+    foreground: "faa41a"
+  deleted:
+    foreground: "f44336"
+  renamed:
+    foreground: "ab47bc"
+  typechange:
+    foreground: "ba68c8"
+  ignored:
+    foreground: "666666"
+    style: "dim"
+  conflicted:
+    foreground: "f44336"
+    style: "bold"
+
+# Security context
+security_context:
+  colon:
+    foreground: "b8b8b8"
+  user:
+    foreground: "48b9c7"
+  role:
+    foreground: "66bb6a"
+  typ:
+    foreground: "faa41a"
+  range:
+    foreground: "ab47bc"
+
+# File type icons
+file_type_exact:
+  README:
+    foreground: "faa41a"
+    style: "bold"
+  README.md:
+    foreground: "faa41a"
+    style: "bold"
+  LICENSE:
+    foreground: "f44336"
+  Makefile:
+    foreground: "66bb6a"
+  Dockerfile:
+    foreground: "42a5f5"
+  package.json:
+    foreground: "81c784"
+  Cargo.toml:
+    foreground: "ff9800"
+
+# Extensions
+file_name_exact:
+  ".gitignore":
+    foreground: "666666"
+  ".env":
+    foreground: "faa41a"
+    style: "dim"

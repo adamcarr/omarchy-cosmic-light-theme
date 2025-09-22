@@ -1,0 +1,12 @@
+{
+  "name": "Cosmic Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1c1c1c",
+    "editor.foreground": "#f2f2f2",
+    "activityBar.background": "#1c1c1c",
+    "sideBar.background": "#1c1c1c",
+    "terminal.background": "#1c1c1c",
+    "terminal.foreground": "#f2f2f2"
+  }
+}

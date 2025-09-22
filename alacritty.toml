@@ -1,0 +1,96 @@
+# Cosmic Light Theme - Based on Catppuccin Latte structure with Cosmic colors
+
+[font]
+size = 11.0
+
+[font.normal]
+family = "Noto Sans Mono"
+style = "Regular"
+
+[font.bold]
+family = "Noto Sans Mono"
+style = "Bold"
+
+[font.italic]
+family = "Noto Sans Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "Noto Sans Mono"
+style = "Bold Italic"
+
+[colors.primary]
+background = "#d4d4d4"      # Medium grey background for better contrast
+foreground = "#4c4f69"      # Use Catppuccin's exact foreground
+dim_foreground = "#8c8fa1"
+bright_foreground = "#4c4f69"
+
+[colors.cursor]
+text = "#d4d4d4"
+cursor = "#0a97a5"          # Cosmic blue
+
+[colors.vi_mode_cursor]
+text = "#d4d4d4"
+cursor = "#cc7900"          # Cosmic orange
+
+[colors.search.matches]
+foreground = "#d4d4d4"
+background = "#6c6f85"
+
+[colors.search.focused_match]
+foreground = "#d4d4d4"
+background = "#0a97a5"      # Cosmic blue
+
+[colors.footer_bar]
+foreground = "#d4d4d4"
+background = "#6c6f85"
+
+[colors.hints.start]
+foreground = "#d4d4d4"
+background = "#cc7900"      # Cosmic orange
+
+[colors.hints.end]
+foreground = "#d4d4d4"
+background = "#6c6f85"
+
+[colors.selection]
+text = "#d4d4d4"
+background = "#0a97a5"      # Cosmic blue
+
+[colors.normal]
+black = "#bcc0cc"           # Keep Catppuccin's exact black
+red = "#d32f2f"             # Cosmic red
+green = "#388e3c"           # Cosmic green
+yellow = "#cc7900"          # Cosmic orange
+blue = "#0a97a5"            # Cosmic blue
+magenta = "#7b1fa2"         # Cosmic purple
+cyan = "#00796b"            # Cosmic teal
+white = "#5c5f77"           # Keep Catppuccin's exact white
+
+[colors.bright]
+black = "#acb0be"           # Keep Catppuccin's exact bright black
+red = "#c62828"             # Cosmic bright red
+green = "#2e7d32"           # Cosmic bright green
+yellow = "#f57c00"          # Cosmic bright orange
+blue = "#0288d1"            # Cosmic bright blue
+magenta = "#6a1b9a"         # Cosmic bright purple
+cyan = "#00695c"            # Cosmic bright teal
+white = "#6c6f85"           # Keep Catppuccin's exact bright white
+
+[colors.dim]
+black = "#bcc0cc"
+red = "#ef5350"
+green = "#66bb6a"
+yellow = "#ffa726"
+blue = "#42a5f5"
+magenta = "#ab47bc"
+cyan = "#26a69a"
+white = "#6c6f85"
+
+[[colors.indexed_colors]]
+index = 16
+color = "#ff6f00"
+
+[[colors.indexed_colors]]
+index = 17
+color = "#0a97a5"

@@ -1,0 +1,71 @@
+# Cosmic Theme for btop
+# By Cosmic Theme Creator
+
+# Main background
+theme[main_bg]="#1c1c1c"
+
+# Main text color
+theme[main_fg]="#f2f2f2"
+
+# Title color for boxes
+theme[title]="#f2f2f2"
+
+# Highlight color for graphs and meters
+theme[hi_fg]="#48b9c7"
+
+# Color of selected item
+theme[selected_bg]="#48b9c7"
+theme[selected_fg]="#1c1c1c"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#666666"
+
+# Color gradients for graphs (from low to high values)
+theme[graph_text]="#48b9c7"
+
+# Process box color gradient
+theme[proc_misc]="#48b9c7"
+
+# CPU graph colors
+theme[cpu_start]="#48b9c7"
+theme[cpu_mid]="#faa41a"
+theme[cpu_end]="#f44336"
+
+# Memory/disks box
+theme[free_start]="#66bb6a"
+theme[free_mid]="#faa41a"
+theme[free_end]="#f44336"
+
+# Temperature graph colors
+theme[temp_start]="#48b9c7"
+theme[temp_mid]="#faa41a"
+theme[temp_end]="#f44336"
+
+# CPU graph colors (full gradient)
+theme[cpu_graph_0]="#48b9c7"
+theme[cpu_graph_1]="#42a5f5"
+theme[cpu_graph_2]="#66bb6a"
+theme[cpu_graph_3]="#81c784"
+theme[cpu_graph_4]="#faa41a"
+theme[cpu_graph_5]="#ffb74d"
+theme[cpu_graph_6]="#ff9800"
+theme[cpu_graph_7]="#ff7043"
+theme[cpu_graph_8]="#f44336"
+theme[cpu_graph_9]="#ef5350"
+
+# Memory graph colors
+theme[mem_graph_0]="#48b9c7"
+theme[mem_graph_1]="#42a5f5"
+theme[mem_graph_2]="#66bb6a"
+theme[mem_graph_3]="#81c784"
+theme[mem_graph_4]="#faa41a"
+theme[mem_graph_5]="#ffb74d"
+theme[mem_graph_6]="#ff9800"
+theme[mem_graph_7]="#ff7043"
+theme[mem_graph_8]="#f44336"
+theme[mem_graph_9]="#ef5350"
+
+# Process list colors
+theme[process_start]="#48b9c7"
+theme[process_mid]="#faa41a"
+theme[process_end]="#f44336"
