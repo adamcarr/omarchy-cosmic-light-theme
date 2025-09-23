@@ -1,5 +1,8 @@
 # Cosmic Light Theme - Based on Catppuccin Latte structure with Cosmic colors
 
+[window]
+opacity = 0.85
+
 [font]
 size = 11.0
 
