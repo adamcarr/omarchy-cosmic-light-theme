@@ -36,19 +36,22 @@ A flat, modern light theme inspired by System76's Cosmic Desktop and Pop!_OS des
 
 ## Color Palette
 
-### Primary Colors
-- Background: `#fafafa`
-- Foreground: `#2e2e2e`
-- Cosmic Blue: `#0a97a5` (darker for light theme)
-- Cosmic Orange: `#cc7900` (darker for light theme)
+### Primary Colors (COSMIC Official)
+- Background: `#fafafa` / `#d4d4d4` (terminal)
+- Foreground: `#2e2e2e` / `#4c4f69` (terminal)
+- COSMIC Blue Dark: `#00525A`
+- COSMIC Orange Dark: `#624000`
 
-### Terminal Colors
-- Red: `#d32f2f`
-- Green: `#388e3c`
-- Yellow: `#cc7900`
-- Blue: `#0a97a5`
-- Magenta: `#7b1fa2`
-- Cyan: `#00796b`
+### COSMIC Official Light Palette
+- Blue: `#00525A`
+- Indigo: `#2E496D`
+- Purple: `#68217C`
+- Pink: `#86043A`
+- Red: `#78292E`
+- Orange: `#624000`
+- Yellow: `#534800`
+- Green: `#185529`
+- Warm Grey: `#554742`
 
 ## Light Mode Indicator
 

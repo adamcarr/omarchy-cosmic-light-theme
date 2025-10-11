@@ -1,5 +1,5 @@
-/* Cosmic Light Theme - Waybar CSS */
+/* Cosmic Light Theme - Waybar CSS (COSMIC Official Colors) */
 @define-color background #eeeeee;
 @define-color foreground #333333;
-@define-color accent #0a97a5;
-@define-color orange #cc7900;
+@define-color accent #00525A;
+@define-color orange #624000;

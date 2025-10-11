@@ -1,27 +1,5 @@
 # Cosmic Light Theme - Based on Catppuccin Latte structure with Cosmic colors
 
-[window]
-# opacity = 0.85  # Commented out to use system default
-
-[font]
-size = 11.0
-
-[font.normal]
-family = "Noto Sans Mono"
-style = "Regular"
-
-[font.bold]
-family = "Noto Sans Mono"
-style = "Bold"
-
-[font.italic]
-family = "Noto Sans Mono"
-style = "Italic"
-
-[font.bold_italic]
-family = "Noto Sans Mono"
-style = "Bold Italic"
-
 [colors.primary]
 background = "#d4d4d4"      # Medium grey background for better contrast
 foreground = "#4c4f69"      # Use Catppuccin's exact foreground
@@ -30,11 +8,11 @@ bright_foreground = "#4c4f69"
 
 [colors.cursor]
 text = "#d4d4d4"
-cursor = "#0a97a5"          # Cosmic blue
+cursor = "#00525A"          # COSMIC Blue Dark (official)
 
 [colors.vi_mode_cursor]
 text = "#d4d4d4"
-cursor = "#cc7900"          # Cosmic orange
+cursor = "#624000"          # COSMIC Orange Dark (official)
 
 [colors.search.matches]
 foreground = "#d4d4d4"
@@ -42,7 +20,7 @@ background = "#6c6f85"
 
 [colors.search.focused_match]
 foreground = "#d4d4d4"
-background = "#0a97a5"      # Cosmic blue
+background = "#00525A"      # COSMIC Blue Dark
 
 [colors.footer_bar]
 foreground = "#d4d4d4"
@@ -50,7 +28,7 @@ background = "#6c6f85"
 
 [colors.hints.start]
 foreground = "#d4d4d4"
-background = "#cc7900"      # Cosmic orange
+background = "#624000"      # COSMIC Orange Dark
 
 [colors.hints.end]
 foreground = "#d4d4d4"
@@ -58,26 +36,26 @@ background = "#6c6f85"
 
 [colors.selection]
 text = "#d4d4d4"
-background = "#0a97a5"      # Cosmic blue
+background = "#00525A"      # COSMIC Blue Dark
 
 [colors.normal]
 black = "#bcc0cc"           # Keep Catppuccin's exact black
-red = "#d32f2f"             # Cosmic red
-green = "#388e3c"           # Cosmic green
-yellow = "#cc7900"          # Cosmic orange
-blue = "#0a97a5"            # Cosmic blue
-magenta = "#7b1fa2"         # Cosmic purple
-cyan = "#00796b"            # Cosmic teal
+red = "#78292E"             # COSMIC Red Dark (official)
+green = "#185529"           # COSMIC Green Dark (official)
+yellow = "#534800"          # COSMIC Yellow Dark (official)
+blue = "#00525A"            # COSMIC Blue Dark (official)
+magenta = "#68217C"         # COSMIC Purple Dark (official)
+cyan = "#00525A"            # COSMIC Blue Dark (cyan uses blue)
 white = "#5c5f77"           # Keep Catppuccin's exact white
 
 [colors.bright]
 black = "#acb0be"           # Keep Catppuccin's exact bright black
-red = "#c62828"             # Cosmic bright red
-green = "#2e7d32"           # Cosmic bright green
-yellow = "#f57c00"          # Cosmic bright orange
-blue = "#0288d1"            # Cosmic bright blue
-magenta = "#6a1b9a"         # Cosmic bright purple
-cyan = "#00695c"            # Cosmic bright teal
+red = "#86043A"             # COSMIC Pink Dark (bright red)
+green = "#185529"           # COSMIC Green Dark (official)
+yellow = "#624000"          # COSMIC Orange Dark (bright yellow)
+blue = "#2E496D"            # COSMIC Indigo Dark (bright blue)
+magenta = "#68217C"         # COSMIC Purple Dark (official)
+cyan = "#00525A"            # COSMIC Blue Dark (bright cyan)
 white = "#6c6f85"           # Keep Catppuccin's exact bright white
 
 [colors.dim]
@@ -92,8 +70,12 @@ white = "#6c6f85"
 
 [[colors.indexed_colors]]
 index = 16
-color = "#ff6f00"
+color = "#624000"           # COSMIC Orange Dark
 
 [[colors.indexed_colors]]
 index = 17
-color = "#0a97a5"
+color = "#554742"           # COSMIC Warm Grey Dark
+
+[[colors.indexed_colors]]
+index = 18
+color = "#2E496D"           # COSMIC Indigo Dark
